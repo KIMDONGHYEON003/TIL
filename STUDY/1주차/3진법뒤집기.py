@@ -11,7 +11,7 @@ def solution(n):
             n = n // 3
             tmp_list.append(n%3)
         break
-
-        
 print(solution(45))
+        
+
     
