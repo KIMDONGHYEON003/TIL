@@ -226,3 +226,90 @@
      정렬의 주체는 부모
 
      하지만 self는 정렬의 주체가 자식
+
+
+
+
+
+## Bootstrap
+
+- 트위터에서 시작된 오픈 소스 프론트엔드 라이브러리
+- 웹 페이지에서 많이 쓰이는 요소 거의 전부를 내장하고 있음
+- 별도의 디자인을 할 시간이 크게 줄어들고, 여러 웹 브라우저를 지원하기 위한 크로수 브라우지에 불필요한 시간을 사용하지 않도록 함
+- one souce multi use : 하나의 코드로 여러 사용을 할 것이다.
+  - 반응형 웹 디자인
+
+### CDN
+
+- Content Delivery Network (링크를 통해 불러오는 방법)
+- 컨텐츠 을 효율적으로 전달하기 위해, 서버와 사용자 사이의 물리적 거리를 줄여ㅑ 컨텐츠 로드 지연 최소화
+- 분산된 서버로 이루어진 플랫폼
+  - 전 세계 사용자들이 로딩 시간을 늦추지 않고 동일한 품질의 컨텐츠를 사용
+- 장점
+  - ?
+
+
+
+#### .mt-1 ? (spacing / 여백)
+
+- == ```margin-top : 0.25rem !important;```
+- 0.25rem = 16*0.25 = 4px
+
+#### mx-0?
+
+- ```margin-right: 0 !important;```
+- ```margin-left: 0 !important;```
+
+#### mx-auto?
+
+- ```auto``` 기능을 한다. right left - > 수평 중앙정렬
+
+#### py-0?
+
+- padding
+
+
+
+#### Responsiv Web Design
+
+- 다양한 화면 크기를 가진 디바이스들이 등장함에 따라 responsive web design 개념이 등장
+
+- 반응형 웹은 별도의 기술 이름이 아닌 웹 디자인에 대한 접근 방식, 반응형 레이아웃 작성에 도움이 되는 사례들의 모음 등을 기술하는데 사용되는 용어
+
+- ex)
+
+  - Media QUERIES, Flexbox, **Bootstrap Grid System**, The viewport~
+
+    
+
+- Bootstrap Grid System
+
+  - flexbox grid / 12 column / 6 default responsive tiers
+  - flexbox로 제작딤
+  - container, rows, column 으로 컨텐츠를 배치하고 정렬
+  - 반드시 기억
+    - 12 column : 약수가 많다  12의 약수가 많기 때문
+    - 6개의 grid breakpoints
+  - 
+
+- gutters
+  - grid 시스템에서 반응적으로 공간을ㅎ 확보하고 컨텐츠 정렬하는데 사용되는 column padding
+- col, col-*
+  - column class는 row 당 가능한 12개 중 사용하려는 columns 수를 나타냄
+  - column 너비는 백분율로 설정 되므로 항상 부모 요소를 기준으로 유동적으로 크기가 조정됨
+  - grid layout 에서 내용은 반드시 columns 안에 있어야 하며 오직 **columns** 만 row의 바로 하위 자식일 수 있음
+- Grid breakpoints
+  - 다양한 디바이스에서 적용하기 위해 특정 px 조건에 지점을 정해둠 이를 breakpoints라고 함
+  - bootstrap은 대부분의 크기를 정의하기 위해 em 또는 rem을 사용하지만 px는 grid breakpoint에 사용
+    - viewport 너비가 픽셀단위이기 때문
+  - .col - (breakpoint) - : 컬럽이 차지하는 칸이 달라짐
+    - xs- sn - md - lg - xl - xxl
+
+##### css layout
+
+- position
+  - 문서 상에 요소를 배치하는 방법을 지정
+- float
+  - 한 요소가 정상 흐름으로부터 빠져 텍스트 및 인라인 요소가 그 주위를 감싸 요소의 좌 우측을 따라 배치되어야함을 지정
+- flexbox
+  - 아이템 간 공간 배분과 강력한 정렬 기능을 제공하기 위한~
