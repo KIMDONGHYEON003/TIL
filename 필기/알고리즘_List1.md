@@ -101,13 +101,13 @@ def BubbleSort(a): # 정렬할 List
   - ```python
     def Counting_Sort(A, B, k):
         
-        C = [0] * (k + 1)
+        C = [0] * (k + 1) # 카운트하기 위한 빈 리스트 생성
         
         for i in range(0,len(A)): # A의 개수를 센다
-            C[A[i]] += 1
+            C[A[i]] += 1 # for문 내에서 C리스트에 카운트한다. ## A[i]가 들어간 이유는 인덱스 값과 A리스트의 값과 맞춰줘야하기 때문
             
         for i in range(1,len(C)): # C에 누적하여 입력한다.
-            C[i] += C[i-1]
+            C[i] += C[i-1] # 
             
         for i in range(len(b)-1, -1, -1): # 
             C[A[i]] -= 1
@@ -184,9 +184,11 @@ def BubbleSort(a): # 정렬할 List
             continue # i를 더하지 않고 바로 while 문으로 돌아간다.
         i +=1
         
-    if run + tri == 2 : print("Baby Gin")
-    else : print("Lose")
+    if run + tri == 2 : 
+        print("Baby Gin")
+    else : 
+        print("Lose")
             
     ```
-
+    
   - 
