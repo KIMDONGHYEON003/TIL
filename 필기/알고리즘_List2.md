@@ -123,6 +123,16 @@
                         
         # 0000 부터 1111까지 모두 출력할 수 있음
         ```
+        
+        ```python
+        for i in range(1, 1<< N):
+            for j in range(N):
+                if i & (1 << j):
+                    print(ingredients[j], end='')
+            print()
+        ```
+        
+        
 
 9. 비트 연산자
 
@@ -216,7 +226,7 @@
 
 11. 2진 검색
 
-    - 자료의 가운데에 있는 항목의 키 값과 비교하여 다음 검색의 위치를 결정하고 검색을 계속 진행하는 방법
+    - 자료의 **가운데**에 있는 항목의 키 값과 비교하여 다음 검색의 위치를 결정하고 검색을 계속 진행하는 방법
 
       - 목적 키를 찾을 때까지 이진 검색을 순환적으로 반복 수행함으로써 검색 범위를 반으로 줄여가면서 보다 빠르게 검색을 수행함
 
@@ -274,12 +284,12 @@
 
     6. ```python
        def SelectionSort(a)
-       for i range(0,len(a)-1):					# 작업 구간의 시작
-           min = i									# 맨 앞을 제일 작다고 가정
-           for j in range(i+1, len(a)):
-               if a[min] > a[j]:
-                   min = j
-           a[i], a[min] = a[min], a[i]
+           for i range(0,len(a)-1):					# 작업 구간의 시작
+               min = i									# 맨 앞을 제일 작다고 가정
+               for j in range(i+1, len(a)):
+                   if a[min] > a[j]:
+                       min = j
+               a[i], a[min] = a[min], a[i]
        ```
 
 14. 셀렉션 알고리즘
