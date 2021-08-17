@@ -78,7 +78,7 @@
 
    - 오랫동안 CSS Layout을 작성할 수 있는 도구는 float 및 positioning 뿐이었음
 
-     - 문제가 있는 것은 아니지만 어떤 면에서는 제한적이고 한계가 있음
+     - 문제가 있는 것은 아니지만 어떤 면에서는 제한적이고 한계가 있음 
 
    - flexbox라 불리는 flexbox 인터페이스 내의 아이템 간 **공간배분** **정렬** 기능을 제공하기 위한 1차원 레이아웃 모델로 설계
 
@@ -148,7 +148,7 @@
            
            /*2. 메인축 방향 설정*/
            /*flex-direction: row; default 설정*/
-           /*flex-direction: row-reverse; /efault 값과 반대 방향*/
+           /*flex-direction: row-reverse; default 값과 반대 방향*/
            /*flex-direction: column; 위에서 아래로 교차축 만큼 사이즈가 꽉참*/
            /*flex-direction: column-reverse; 아래에서 위로 방향이 결정*/
            
