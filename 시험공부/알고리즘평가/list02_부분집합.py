@@ -18,11 +18,16 @@
 #                 print()
 
 # 부분집합\
-arr = [1,5,25,3,58,4,5,21,216,1,5,10]
+arr = [1, 5, 25, 3, 58, 4, 5, 21, 216, 1, 5, 10]
 N = len(arr)
-for i in range(1, 1<<N):
+result2 = []
+for i in range(1, 1 << N):
+    result1 = []
     for j in range(N):
-        if i & (1<<j):
-            print(arr[j], end=' ')
-    print()
+        if i & (1 << j):
+            result1.append(arr[j])
+    result2.append(result1)
+
+for i in result2:
+    print(i)
 
