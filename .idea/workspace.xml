@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60fb7808-df74-42ee-ad6e-d05c28d3d5eb" name="Default Changelist" comment="" />
+    <list default="true" id="18a48784-9bcf-49f6-974c-7eb02cbaeacb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/알고리즘/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TIL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TIL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210721_SWEA_1/1_문자열나누기.PY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210721_SWEA_1/2_홀수만더하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210721_SWEA_1/3_몫과나머지출력.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210725_SWEA_2/2027_홀수만더하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/필기/02 web.md" beforeDir="false" afterPath="$PROJECT_DIR$/필기/02 web.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1vOFCgv8GOqnTrVL6aBIo3iNPXW" />
+  <component name="ProjectId" id="1wTCACUEUKBIakrCE2PdoasEy31" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,13 +29,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60fb7808-df74-42ee-ad6e-d05c28d3d5eb" name="Default Changelist" comment="" />
-      <created>1626425105918</created>
+      <changelist id="18a48784-9bcf-49f6-974c-7eb02cbaeacb" name="Default Changelist" comment="" />
+      <created>1628473045728</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626425105918</updated>
+      <updated>1628473045728</updated>
     </task>
     <servers />
   </component>

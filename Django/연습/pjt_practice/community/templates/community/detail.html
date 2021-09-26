@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <h2>DETAIL</h2>
+  <hr>
+  <p>{{review.title}}</p>
+  <p>{{review.content}}</p>
+  <p>{{review.rank}}</p>
+
+  <a href="{% url 'community:update' review.pk %}">
+    <p>UPDATE</p>
+  </a>
+  <a href="{% url 'community:delete' review.pk %}">
+    <p>DELETE</p>
+  </a>
+
+{% endblock content %}

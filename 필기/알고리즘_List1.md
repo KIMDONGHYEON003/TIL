@@ -112,7 +112,7 @@ def BubbleSort(a): # 정렬할 List
         for i in range(len(b)-1, -1, -1): # 
             C[A[i]] -= 1
             B[C[A[i]]] = A[i]
-            C[A[i]] -= 1
+    
     ```
 
   

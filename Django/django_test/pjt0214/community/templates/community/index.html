@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+<h2 class = 'text-center'>INDEX</h2>
+<hr>
+{% for review in reviews %}
+  <p>
+    <a href="{% url 'community:detail' review.pk %}">
+      {{ review.title }}
+    </a>
+  </p>
+{% endfor %}
+
+
+{% endblock content %}

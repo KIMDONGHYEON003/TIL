@@ -1,4 +1,4 @@
-k = input()
+k = int(input())
 c= [0 for i in range(k)]
 for i in range(0,k):
     a= list(map(int, input().split()))

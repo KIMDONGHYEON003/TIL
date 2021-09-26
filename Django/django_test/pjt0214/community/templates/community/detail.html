@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+  <h2 class='text-center'>DETAIL</h2>
+  <div>
+    <p>Title : {{review.title}}</p>
+    <p>Content : {{review.content}}</p>
+    <p>Rank : {{review.rank}}</p>
+  </div>
+
+  <div>
+    <a href="{% url 'community:update' review.pk %}">
+      <button>UPDATE</button>
+    </a>
+    <form action="{% url 'community:delete' review.pk %}" method = 'POST'>
+      {% csrf_token %}
+      <button>DELETE</button>
+    </form>
+  </div>
+
+{% endblock content %}
+
+
