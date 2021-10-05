@@ -1,14 +1,14 @@
 def solution(numbers):
-    tmp=[]
+    tmp = []
     for index, num in enumerate(numbers):
         # 두자리수 세자리수 네자리수에 관계없이 맨 앞자리를 봐야하기 때문
         if num < 10:
             num = num*1111
-        elif num<100:
-            num=num*101
-        elif num<1000:
-            num=num*10+(num//100)
-        tmp.append([num,index])
+        elif num < 100:
+            num = num*101
+        elif num < 1000:
+            num = num*10+(num//100)
+        tmp.append([num, index])
 
     # 정렬 후에 반대로 전환
     tmp.sort()
@@ -22,4 +22,4 @@ def solution(numbers):
     answer=int(answer)
     return str(answer)
 
-print(solution([6, 10, 2]))
+print(solution([3, 30, 34, 5, 9]))

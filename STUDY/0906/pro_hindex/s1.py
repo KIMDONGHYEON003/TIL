@@ -16,4 +16,5 @@ def solution(citations):
         answer = len(citations)
     return answer
 
+
 print(solution([3, 0, 6, 1, 5]))
